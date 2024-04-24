@@ -132,7 +132,8 @@ html {
 }
 .card1-secondary-btn,
 .card1-primary-btn {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     padding: 0.75rem;
     font-weight: 600;
     border-radius: 1rem;
