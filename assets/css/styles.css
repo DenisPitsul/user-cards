@@ -441,6 +441,7 @@ html {
 }
 .card4-photo{
     border: 3px solid var(--blue-color);
+    object-fit: cover;
     border-radius: 50%;
     width: 9.3em;
     height: 9.3em;
