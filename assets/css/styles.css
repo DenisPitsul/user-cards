@@ -588,7 +588,7 @@ html {
 }
 @media screen and (min-width: 850px) {
     .card4{
-        min-width: 784px;
+        max-width: 784px;
     }
     .card4-top-bg{
         flex-direction: row;
