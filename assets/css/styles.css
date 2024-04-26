@@ -518,9 +518,9 @@ html {
     font-weight: bold;
 }
 .card4-big-text-wrapper{
-    display: none;
     background: linear-gradient(to right, #000, #2b2b2b);
-    padding: 2.5em 2em 1.2em;
+    padding: 0;
+    font-size: 0;
 }
 .card4-big-text{
     color: #99aab5;
@@ -555,7 +555,8 @@ html {
 }
 @media screen and (min-width: 600px) {
     .card4-big-text-wrapper{
-        display: block;
+        font-size: 1em;
+        padding: 2.5em 2em 1.2em;
     }
     .card4-photo{
         width: 11.3em;
